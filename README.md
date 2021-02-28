@@ -1,6 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/heprops.svg)](https://badge.fury.io/py/spe)
 
-`spe` is a simple python package that does one thing: loads an ascii .spe file containing neutron scattering from disk and return `numpy` arrays containing the wavevector (Q), energy (E), scattering intensity (S) and error (ΔS).
+`spens` is a simple python package that does one thing: loads an ascii .spe file containing neutron scattering (NS) from disk and return `numpy` arrays containing the wavevector (Q), energy (E), scattering intensity (S) and error (ΔS).
 
 ## Supported Python Versions
 Python >= 3.6 (for f-strings)
@@ -8,20 +8,20 @@ Python >= 3.6 (for f-strings)
 ## Installation
 To install via pip:
 
-    pip install spe
+    pip install spens
 
 Or from within a notebook:
 
 ```python
 import sys
-!{sys.executable} -m pip install spe
+!{sys.executable} -m pip install spens
 ```
 
 ## Usage
 The library implements a single function `load_spe` which takes the filename of a `.spe` file and return `numpy` arrays.
 
 ```python
-import spe
+import spesns
 import numpy as np
 
 # load the data

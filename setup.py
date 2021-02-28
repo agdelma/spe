@@ -4,7 +4,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setuptools.setup(
-    name='spe',
+    name='spens',
     version='1.0.0',
     packages=setuptools.find_packages(),
     license='MIT',
