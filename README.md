@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/heprops.svg)](https://badge.fury.io/py/spe)
+[![PyPI version](https://badge.fury.io/py/spens.svg)](https://badge.fury.io/py/spens)
 
 `spens` is a simple python package that does one thing: loads an ascii .spe file containing neutron scattering (NS) from disk and return `numpy` arrays containing the wavevector (Q), energy (E), scattering intensity (S) and error (ΔS).
 
