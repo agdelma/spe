@@ -21,11 +21,11 @@ import sys
 The library implements a single function `load_spe` which takes the filename of a `.spe` file and return `numpy` arrays.
 
 ```python
-import spesns
+import spens
 import numpy as np
 
 # load the data
-Q,E,S,ΔS = spe.load_file(f'/path/to/scattering/file.spe')
+Q,E,S,ΔS = spens.load_file(f'/path/to/scattering/file.spe')
 
 # create meshes for plotting
 Emesh,Qmesh = np.meshgrid(E,Q)
